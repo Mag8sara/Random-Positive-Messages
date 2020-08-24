@@ -1,4 +1,4 @@
-        // place your images in this array
+
         var random_images_array = ['P1.jpg', 'P2.jpg', 'P3.jpg', 'P4.jpg'];
 
         function getRandomImage(imgAr, path) {
