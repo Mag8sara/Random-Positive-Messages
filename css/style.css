@@ -1,0 +1,114 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(230, 233, 238);
+}
+
+.Allimg {
+    max-width: 60%;
+    height: auto;
+}
+
+.Allhdr {
+    font-size: 8vw;
+}
+
+.Alltext {
+    font-size: 5vw;
+}
+
+.main-header {
+    background-image: url("../images/back2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.futurework-section {
+    margin-top: 10px;
+}
+
+.futurework-heading,
+.futurework-box {
+    text-align: center;
+}
+
+.futurework-box {
+    margin: 10px 0;
+}
+
+#myimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MyBot {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(179, 140, 175);
+    transition: 250ms all ease-in-out;
+}
+
+@media screen and (min-width:475px) {
+    .Allhdr {
+        font-size: 6vw;
+        color: rgb(179, 140, 175);
+    }
+    .Alltext {
+        font-size: 4vw;
+        color: rgb(179, 140, 175);
+        ;
+    }
+    .futurework-img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .main-header {
+        margin: 0 auto 20px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .alltext-header {
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+    .main-header,
+    .futurework-boxes {
+        display: flex;
+        flex-wrap: inherit;
+        max-width: 1440px;
+    }
+    .futurework-boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    .futurework-box {
+        margin: 15px 15px 15px 15px;
+    }
+}
+
+@media screen and (min-width:815px) {
+    .Allhdr {
+        font-size: 4vw;
+        color: rgb(88, 45, 78);
+    }
+    .Alltext {
+        font-size: 2vw;
+        color: rgb(88, 45, 78);
+    }
+    .futurework-img {
+        width: 40%;
+    }
+}
